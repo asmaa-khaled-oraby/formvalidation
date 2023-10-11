@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://content.wepik.com/statics/4633934/preview-page0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+ 
+span{
+    color:#ff0000  ;
+     position: absolute;
+    top: 190px;
+    left: 680px;
+    z-index: 1;
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    border-radius: 5%;
+    border: none;
+    box-shadow:  5px 5px rgb(237, 234, 234);
+    background-color: rgb(242, 242, 242);
+}
+
+.container input{
+    padding: 15px;
+    margin: 5px;
+    width: 250px;
+    border-radius :10px ;
+    border:none;
+   text-align: end;
+}
+
+.container input:focus{
+   outline: none;
+}
+
+.container button{
+    padding: 15px;
+    width: 285px;
+    height: 50px;
+    border-radius :10px ;
+    border:none;
+    background-color:#389800;
+    color: white;
+    font-size: 25px;
+}
+
+.container p{
+    text-align: end;
+    font-size: 15px;
+}
